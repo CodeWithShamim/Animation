@@ -1,0 +1,92 @@
+.div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+#div-1 {
+  background-color: rgb(85, 85, 255);
+}
+#div-2 {
+  background-color: rgb(35, 255, 64);
+  /* visibility: hidden; */
+  display: none;
+}
+#div-3 {
+  background-color: rgb(253, 249, 30);
+}
+#div-4 {
+  background-color: rgb(255, 28, 198);
+}
+
+/* Section 02 */
+
+.mini-mini {
+  border: 2px solid red;
+  width: 200px;
+}
+
+.text-short {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* --------------------------------- */
+.div1 {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  /* overflow: visible; */
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* overflow: auto; */
+  overflow-x: hidden;
+}
+
+.div2 {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  /* overflow: visible; */
+  /* overflow: hidden; */
+  overflow: scroll;
+  /* overflow: auto; */
+  /* overflow-x: hidden; */
+}
+
+/* Create icon using fontawesome */
+
+.fab {
+  color: red;
+  font-size: 18px;
+}
+
+/* Transform attribute */
+.trans-div {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  transition: 2s;
+  /* transform: scale(0.5); */
+  /* transform: rotate(180deg); */
+  /* transform: translate(140px, 150px); */
+  /* transform: skew(); */
+  transform: scale(0.3) rotate(180deg) translate(140px, 150px);
+}
+
+/* Transion property */
+
+.transition {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  transition: width 2s linear 1s, background-color 2s linear 1s,
+    transform 2s linear 1s;
+}
+
+.transition:hover {
+  width: 300px;
+  background-color: aquamarine;
+  transform: rotate(45deg);
+}
